@@ -1,0 +1,64 @@
+html{
+    background-color: azure;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: rgb(188, 255, 255);
+    font-size: 50px;
+    border: solid;
+    border-radius: 5px;
+}
+
+content{
+    font-size: 20px;
+}
+
+img.width , img.color{
+    float:left;
+}
+
+img.skeleton{
+    float:none;
+    position:absolute;
+}
+
+footer{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(0, 149, 255)
+}
+
+img{
+    border: groove;
+    border-color: rgb(154, 154, 154);
+    border-width: 10px;
+    width:20%;
+    margin: 40px 40px 40px 40px;
+}
+
+img.width:hover{
+    width:30%;
+    position:relative;
+    transition: width 1s;
+}
+
+.skeleton:active{
+    filter:contrast(360deg);
+    transition: filter 2s;
+}
+
+img.color:hover{
+    filter: hue-rotate(720deg);
+    transition: filter 5s;
+}
+
+
+
+.list{
+    position:absolute;
+}
