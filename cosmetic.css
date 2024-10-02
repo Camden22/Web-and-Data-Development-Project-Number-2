@@ -1,0 +1,133 @@
+h1, p, h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color:rgb(255, 255, 255);
+}
+
+h1{
+    text-align:center;
+}
+
+header{
+    background-color:rgb(255, 255, 255);
+}
+
+header h1{
+    font-style:oblique;
+    font-size:50px;
+    text-align:left;
+    margin-left: 10px;
+}
+
+header hr{
+    color:rgb(0, 153, 255);
+    background-color:rgba(118, 228, 255, 0.221);
+    height:20px;
+}
+
+.round{
+    font-size:20px;
+    line-height:35px;
+    float:left;
+    padding: 10px 5px 10px 5px;
+    width:50%;
+    margin: 5px 20px 30px 20px;
+    background-color:rgba(118, 228, 255, 0.221);
+
+    border: solid;
+    border-radius:15px;
+    border-style:solid;
+    border-color:rgb(0, 153, 255);
+    
+}
+
+.beach-photo{
+    margin: 50px 10px 10px 10px;
+    float:right;
+    width:750px;
+
+    border: solid;
+    border-radius:15px;
+    border-style:solid;
+    border-color:rgb(0, 153, 255);
+}
+
+.sunset{
+    float:right;
+    margin-right:180px;
+}
+
+iframe.round{
+    margin-left:160px;
+}
+
+h2.round{
+    background-color:rgb(0, 153, 255);
+    color:rgb(255, 255, 255);
+    display:inline-block;
+}
+
+span a.round:hover{
+    color:rgb(0, 153, 255);
+    border-color: rgb(0, 153, 255);
+    transition: color 1ms;
+}
+
+span a.round:active{
+    opacity:50%;
+    transition: opacity 2ms;
+}
+
+span h2{
+    text-align: center;
+    margin-left:200px;
+}
+
+h2 a{
+    text-decoration: none;
+    color:black;
+}
+
+.select{
+    color:rgb(118, 228, 255);
+}
+
+span.round p{
+    margin-left:40px;
+}
+
+
+span{
+    font-size:20px;
+    line-height:25px;
+    float:left;
+    padding: 5px 5px 5px 5px;
+    width:50%;
+    margin: 10px 20px 30px 20px;
+    background-color:rgba(118, 228, 255, 0.221);
+
+    border: solid;
+    border-radius:15px;
+    border-style:solid;
+    border-color:aqua
+}
+
+
+div.divdiv p, div.divdiv a{
+    float:left;
+    width:60%
+}
+
+div.divdiv img{
+    float:right;
+    width:20%;
+    margin:10px 120px 10px 0px
+}
+
+a.round:hover{
+    font-size:30px;
+    transition: font-size 1s;
+}
+
